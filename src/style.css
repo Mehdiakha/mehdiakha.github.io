@@ -12,7 +12,28 @@
   padding: 0;
 }
 
+#ascii-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  font-family: monospace;
+  font-size: 12px;
+  line-height: 1;
+  color: #00ffcc;
+  opacity: 0.15;
+  pointer-events: none;
+  user-select: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  position: relative;
+  z-index: 1;
   font-family: var(--secondary-font);
   background-color: var(--third-color);
   color: var(--third-color);
