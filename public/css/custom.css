@@ -17,36 +17,40 @@
 }
 
 /* Make navbar background same as site background */
-.header,
-.header,
-[data-theme=dark] .header,
-[data-theme=light] .header {
-    background: inherit !important;
-    background-color: inherit !important;
-}
+/* Light mode: body is #fff, header was #fafafa */
+/* Dark mode: body is #232425, header was #1b1c1d */
 
+.header,
 .menu,
-[data-theme=dark] .menu,
-[data-theme=light] .menu {
-    background: inherit !important;
-    background-color: inherit !important;
+.submenu {
+    background: #fff !important;
+    background-color: #fff !important;
 }
 
-.submenu,
-[data-theme=dark] .submenu,
+[data-theme=dark] .header,
+[data-theme=dark] .menu,
+[data-theme=dark] .submenu {
+    background: #232425 !important;
+    background-color: #232425 !important;
+}
+
+[data-theme=light] .header,
+[data-theme=light] .menu,
 [data-theme=light] .submenu {
-    background: inherit !important;
-    background-color: inherit !important;
+    background: #fff !important;
+    background-color: #fff !important;
 }
 
 @media (prefers-color-scheme: dark) {
     .header, .menu, .submenu {
-        background: inherit !important;
+        background: #232425 !important;
+        background-color: #232425 !important;
     }
 }
 
 @media (prefers-color-scheme: light) {
     .header, .menu, .submenu {
-        background: inherit !important;
+        background: #fff !important;
+        background-color: #fff !important;
     }
 }
