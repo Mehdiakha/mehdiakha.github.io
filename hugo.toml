@@ -6,7 +6,6 @@ theme = "hello-friend-ng"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -112,7 +111,7 @@ disableHugoGeneratorInject = false
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = ["css/custom.css"]
+  customCSS = ["/css/custom.css"]
   customJS  = []
 
   # Integrate Plausible.io
@@ -126,7 +125,7 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
-    trademark = 2023
+    trademark = 2025
     rss = true
     copyright = true
     author = true
