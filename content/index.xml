@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contents on Mehdi Akhabbar</title><link>https://mehdiakha.github.io/content/</link><description>Recent content in Contents on Mehdi Akhabbar</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://mehdiakha.github.io/content/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://mehdiakha.github.io/content/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/posts/creating-a-new-theme/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contents on Mehdi Akhabbar</title><link>https://mehdiakha.github.io/content/</link><description>Recent content in Contents on Mehdi Akhabbar</description><generator>Hugo</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://mehdiakha.github.io/content/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://mehdiakha.github.io/content/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/posts/creating-a-new-theme/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description></item><item><title>Migrate to Hugo from Jekyll</title><link>https://mehdiakha.github.io/content/posts/migrate-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/posts/migrate-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static"&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
@@ -13,7 +13,9 @@ With Jekyll, something that looked like&lt;/p&gt;
  ▾ images/
  logo.png
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>About</title><link>https://mehdiakha.github.io/content/about/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/about/</guid><description>&lt;p&gt;Hugo is the &lt;strong&gt;world’s fastest framework for building websites&lt;/strong&gt;. It is written in Go.&lt;/p&gt;
+&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Création d'un nouveau thème</title><link>https://mehdiakha.github.io/content/posts/creation-dun-nouveau-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/posts/creation-dun-nouveau-theme/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&lt;/p&gt;
+&lt;p&gt;Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.&lt;/p&gt;</description></item><item><title>About</title><link>https://mehdiakha.github.io/content/about/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/about/</guid><description>&lt;p&gt;Hugo is the &lt;strong&gt;world’s fastest framework for building websites&lt;/strong&gt;. It is written in Go.&lt;/p&gt;
 &lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/russross/blackfriday"&gt;https://github.com/russross/blackfriday&lt;/a&gt;&lt;/li&gt;
@@ -29,7 +31,14 @@ logic to be able to create a good static website. If you have used other
 template systems from different languages or frameworks you will find a lot of
 similarities in Go templates.&lt;/p&gt;
 &lt;p&gt;This document is a brief primer on using Go templates. The &lt;a href="https://golang.org/pkg/html/template/"&gt;Go docs&lt;/a&gt;
-provide more details.&lt;/p&gt;</description></item><item><title>Getting Started with Hugo</title><link>https://mehdiakha.github.io/content/posts/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/posts/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo"&gt;Step 1. Install Hugo&lt;/h2&gt;
+provide more details.&lt;/p&gt;</description></item><item><title>Débuter avec Hugo</title><link>https://mehdiakha.github.io/content/posts/debuter-avec-hugo/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/posts/debuter-avec-hugo/</guid><description>&lt;h2 id="étape-1-installer-hugo"&gt;Étape 1. Installer Hugo&lt;/h2&gt;
+&lt;p&gt;Allez sur la page de téléchargements de
+&lt;a href="https://github.com/spf13/hugo/releases"&gt;hugo&lt;/a&gt; et téléchargez la version
+appropriée à votre système d&amp;rsquo;exploitation et votre architecture.&lt;/p&gt;
+&lt;p&gt;Sauvegardez le fichier téléchargé à un endroit précis, afin de l&amp;rsquo;utiliser dans
+l&amp;rsquo;étape suivante.&lt;/p&gt;
+&lt;p&gt;Des informations plus complètes sont disponibles sur la page
+&lt;a href="https://mehdiakha.github.io/overview/installing/"&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Getting Started with Hugo</title><link>https://mehdiakha.github.io/content/posts/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/posts/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo"&gt;Step 1. Install Hugo&lt;/h2&gt;
 &lt;p&gt;Go to &lt;a href="https://github.com/spf13/hugo/releases"&gt;Hugo releases&lt;/a&gt; and download the
 appropriate version for your OS and architecture.&lt;/p&gt;
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
@@ -44,4 +53,19 @@ you are reading right now.&lt;/p&gt;
 &lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;
 &lt;li&gt;Open your browser to http://localhost:1313&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;</description></item><item><title>Introduction aux modèles (Hu)go</title><link>https://mehdiakha.github.io/content/posts/introduction-aux-modeles-hugo/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/posts/introduction-aux-modeles-hugo/</guid><description>&lt;p&gt;Hugo utilise l&amp;rsquo;excellente librairie &lt;a href="http://golang.org/"&gt;go&lt;/a&gt; &lt;a href="http://golang.org/pkg/html/template/"&gt;html/template&lt;/a&gt; pour
+son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit
+nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour
+créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de
+modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de
+similitudes avec les modèles go.&lt;/p&gt;
+&lt;p&gt;Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates. La
+&lt;a href="http://golang.org/pkg/html/template/"&gt;documentation go&lt;/a&gt; fourni plus de détails.&lt;/p&gt;</description></item><item><title>Migrer vers Hugo depuis Jekyll</title><link>https://mehdiakha.github.io/content/posts/migrer-vers-hugo-depuis-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://mehdiakha.github.io/content/posts/migrer-vers-hugo-depuis-jekyll/</guid><description>&lt;h2 id="déplacez-le-contenu-statique-vers-static"&gt;Déplacez le contenu statique vers &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Jekyll a une règle comme quoi tout répertoire qui ne commence pas par &lt;code&gt;_&lt;/code&gt; sera
+copié tel-quel dans le répertoire &lt;code&gt;_site&lt;/code&gt;. Hugo garde tout le contenu statique
+dans le répertoire &lt;code&gt;static&lt;/code&gt;. Vous devez donc déplacer tout ce type de contenu
+là-dedans. Avec Jekylll, l&amp;rsquo;arborescence ressemblant à ceci :&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+ ▾ images/
+ logo.png
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>
