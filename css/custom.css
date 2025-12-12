@@ -17,6 +17,36 @@
 }
 
 /* Make navbar background same as site background */
-.header {
-    background: transparent !important;
+.header,
+.header,
+[data-theme=dark] .header,
+[data-theme=light] .header {
+    background: inherit !important;
+    background-color: inherit !important;
+}
+
+.menu,
+[data-theme=dark] .menu,
+[data-theme=light] .menu {
+    background: inherit !important;
+    background-color: inherit !important;
+}
+
+.submenu,
+[data-theme=dark] .submenu,
+[data-theme=light] .submenu {
+    background: inherit !important;
+    background-color: inherit !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .header, .menu, .submenu {
+        background: inherit !important;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .header, .menu, .submenu {
+        background: inherit !important;
+    }
 }
