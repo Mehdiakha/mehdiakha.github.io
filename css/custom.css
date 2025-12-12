@@ -2,7 +2,7 @@
 
 /* Make the logo bigger - need !important to override theme default */
 .logo img {
-    height: 100px !important;
-    max-height: 100px !important;
-    width: auto !important;
+    height: 200px;        /* desired display height */
+    width: auto;           /* maintain aspect ratio */
+    image-rendering: auto; /* smooth scaling */
 }
