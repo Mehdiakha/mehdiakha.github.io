@@ -41,6 +41,9 @@
                 href="https://mehdiakha.github.io/fr/content/posts/creation-dun-nouveau-theme/"
                 />
   </url><url>
+    <loc>https://mehdiakha.github.io/fr/categories/hugo/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mehdiakha.github.io/fr/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -53,9 +56,6 @@
                 hreflang="fr"
                 href="https://mehdiakha.github.io/fr/"
                 />
-  </url><url>
-    <loc>https://mehdiakha.github.io/fr/categories/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mehdiakha.github.io/fr/content/posts/debuter-avec-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>

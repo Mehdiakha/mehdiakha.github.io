@@ -1,5 +1,5 @@
 baseURL = "https://mehdiakha.github.io/"
-title   = "Hello Friend NG"
+title   = "Mehdi Akhabbar"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -68,7 +68,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Mehdi Akhabbar"
+  homeSubtitle = "Software Developer"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -132,9 +132,7 @@ disableHugoGeneratorInject = false
     author = true
 
     topText = []
-    bottomText = [
-      "Made with &#10084; by <a href=\"https://github.com/Mehdiakha\">Mehdi Akhabbar</a>"
-    ]
+
 
   # Colors for favicons
   #
@@ -144,8 +142,8 @@ disableHugoGeneratorInject = false
     theme = "#1b1c1d"
 
   [params.logo]
-    logoMark     = "/img/logo.png"
-    logoText     = "$ cd /home/"
+    path         = "/img/logo.png"
+    alt          = "Logo"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
