@@ -1,7 +1,8 @@
 /* Custom styles for the site */
 
-/* Make the logo bigger */
+/* Make the logo bigger - need !important to override theme default */
 .logo img {
-    max-height: 100px;  /* Adjust this value to make it bigger or smaller */
-    width: auto;
+    height: 80px !important;
+    max-height: 80px !important;
+    width: auto !important;
 }
