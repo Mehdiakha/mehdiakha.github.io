@@ -67,7 +67,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Software Developer"
+  homeSubtitle = "Crafting software that makes a difference."
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -241,14 +241,8 @@ disableHugoGeneratorInject = false
     identifier  = "about"
     name        = "About"
     url         = "about/"
-    hasChildren = true
+    hasChildren = false
   
-  [[menu.main]]
-    identifier  = "me"
-    name        = "About Me"
-    url         = "about/me/"
-    parent      = "about"
-
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
